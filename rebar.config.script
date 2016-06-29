@@ -86,6 +86,8 @@ Cfg2 = case IsRebar3 of
                Cfg1
        end,
 
+Config = Cfg2,
+
 %%io:format("Configuration:~n  ~p~n", [Config]),
 Config.
 
